@@ -1,10 +1,25 @@
-import logo from './logo.svg';
+import snake from './components/snake';
 import './App.css';
 
 function App() {
+  const count = [count, setCount]
+  const add = () => {
+    setCount + 1
+  }
+  const minus = () => {
+    setCount - 1
+  }
   return (
     <div className="App">
-  hello world
+      people's counter here
+      <button onClick={add}>+</button>
+      {count}
+      <button onClick={minus}>-</button>
+      <div>
+        new component called <snake />
+      </div>
+ 
+ 
     </div>
   );
 }
