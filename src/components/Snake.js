@@ -1,7 +1,7 @@
 import React from "react";
 
-const snake = () => {
+const Snake = () => {
   return <div>snake</div>;
 };
 
-export default snake;
+export default Snake;

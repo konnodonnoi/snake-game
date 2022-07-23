@@ -1,25 +1,34 @@
-import snake from './components/snake';
+
+import { useState } from 'react';
+
 import './App.css';
+import Cobra from './components/Cobra';
+import Snake from './components/snake';
 
 function App() {
-  const count = [count, setCount]
+
+  const [count, setCount] = useState(0)
+
   const add = () => {
-    setCount + 1
+    setCount(prevCount => prevCount+ 1)
   }
+
   const minus = () => {
-    setCount - 1
+    setCount(prevCount => prevCount - 1)
   }
+
+
   return (
     <div className="App">
-      people's counter here
-      <button onClick={add}>+</button>
-      {count}
-      <button onClick={minus}>-</button>
-      <div>
-        new component called <snake />
-      </div>
- 
- 
+  people's counter so here we go 
+  <div>
+    <button onClick={add}>+</button>
+    {count}
+    <button onClick={minus}>-</button>
+
+    then we added the <Cobra /> component and <Snake /> components too
+
+  </div>
     </div>
   );
 }
