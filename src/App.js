@@ -29,6 +29,7 @@ function App() {
     then we added the <Cobra /> component and <Snake /> components too
 
   </div>
+  wahala
     </div>
   );
 }
