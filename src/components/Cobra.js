@@ -5,5 +5,6 @@ const Cobra = () => {
     <div>Cobra</div>
   )
 }
+//cobra component
 
 export default Cobra;

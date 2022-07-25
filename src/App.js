@@ -16,7 +16,7 @@ function App() {
   const minus = () => {
     setCount(prevCount => prevCount - 1)
   }
-
+//count practice at the moment
 
   return (
     <div className="App">
